@@ -7,6 +7,7 @@ import PopularNews from "../components/PopulerNews";
 import ArticleCard from "../components/ArticleCard";
 import { Loader } from "lucide-react";
 import { BiHomeAlt2 } from "react-icons/bi";
+import ToTopButton from "../components/ToTopButton";
 
 const DetailPage = () => {
   const { portal, kategori, id } = useParams();
@@ -193,6 +194,7 @@ const DetailPage = () => {
       </main>
 
       <Footer />
+      <ToTopButton />
     </>
   );
 };
