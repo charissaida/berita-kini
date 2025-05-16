@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Beranda", to: "/" },
+    { name: "Beranda", to: "/berita-kini" },
     { name: "Terbaru", to: "/terbaru" },
     { name: "Nasional", to: "/nasional" },
     { name: "Internasional", to: "/internasional" },
@@ -21,7 +21,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="navbar px-4 max-w-7xl mx-auto">
         <div className="flex-1">
-          <Link to="/" className="text-2xl font-bold flex items-center gap-2 focus:border-none">
+          <Link to="/berita-kini" className="text-2xl font-bold flex items-center gap-2 focus:border-none">
             <img src={logo} alt="Logo Portal Berita" className="w-8 h-8" />
             Berita Kini
           </Link>

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const navItems = [
-    { name: "Beranda", to: "/" },
+    { name: "Beranda", to: "/berita-kini" },
     { name: "Terbaru", to: "/terbaru" },
     { name: "Nasional", to: "/nasional" },
     { name: "Internasional", to: "/internasional" },
