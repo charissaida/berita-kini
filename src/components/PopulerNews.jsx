@@ -27,11 +27,11 @@ const PopularNews = ({ articles, gridCols = 3 }) => {
                   <div className="bg-[#1F2B39] text-white w-8 h-8 flex items-center justify-center rounded-full text-base font-bold pb-0.5">{index + 1}</div>
                 </div>
 
-                <img src={article.thumbnail} alt={article.title} className="w-48 h-44 lg:w-36 lg:h-32 object-cover rounded-md" />
+                <img src={article.thumbnail} alt={article.title} className="md:w-48 md:h-44 w-28 h-24 lg:w-36 lg:h-32 object-cover rounded-md" />
 
                 <div className="flex-1">
-                  <h3 className="text-lg lg:text-sm font-semibold line-clamp-2 mb-1">{article.title}</h3>
-                  <div className="text-base lg:text-xs text-gray-500 flex items-center gap-2 mt-20 lg:mt-16">
+                  <h3 className="text-base md:text-lg lg:text-sm font-semibold line-clamp-2 mb-1">{article.title}</h3>
+                  <div className="text-base lg:text-xs text-gray-500 flex items-center gap-2 mt-4 md:mt-20 lg:mt-16">
                     <span className="text-blue-600 font-medium">{article.category}</span>
                     <span>•</span>
                     <span>

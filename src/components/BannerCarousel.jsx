@@ -17,7 +17,7 @@ const BannerCarousel = () => {
 
   return (
     <div className="w-full my-10 relative">
-      <div className="relative w-full h-[200px] md:h-[300px] overflow-hidden rounded-xl">
+      <div className="relative w-full h-[120px] md:h-[200px] lg:h-[300px] overflow-hidden rounded-xl">
         {banners.map((img, index) => (
           <img key={index} src={img} alt={`Banner ${index + 1}`} className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${current === index ? "opacity-100 z-10" : "opacity-0 z-0"}`} />
         ))}
